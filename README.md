@@ -5,4 +5,4 @@ This is a prime number checker that works using positive value integers. If you 
 Paste this code into your IDE, and compile it. After that, input the minimum value, and the maximum value. The program would do the rest of the counting.
 
 ### Info
-The "Prime Number" file is outdated, please check the better and optimized file.
+The file that are in archives are wrong, please do not use it because it may give you the wrong results
