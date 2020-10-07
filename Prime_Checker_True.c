@@ -53,8 +53,13 @@ int main()
             sum += low;//adding the sum
         }
    }
-   printf ("\tSum is equal to = %d\n", sum);//printing the sum only once
-   printf ("\tCount is = %d\n", count);//printing the count only once
-}
+       if (sum == 0){//added exception if the user enter an index that doesn't return any value.
+            printf ("Your index doesn't return any value, please try again\n");
+       }
+       else {
+       printf ("\tSum is equal to = %d\n", sum);//printing the sum only once
+       printf ("\tCount is = %d\n", count);//printing the count only once
+       }
+    }
     return 0;//return if the program ran successfully
 }
